@@ -1,4 +1,5 @@
-*{  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+*{  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -9,7 +10,7 @@
     transition: all .2s linear;
 }
 body{
-    background: black;
+    background-color: whitesmoke;
     color: white;
 }
 html{
@@ -28,52 +29,61 @@ html{
     align-items: center;
     justify-content: space-between;
     padding: 0 9%;
-    z-index: 1000px;
-    background:white;
     color: white;
-    border: 1px solid;
-
+    padding: 10px;
+    box-shadow: 1px 1px 1px 2px rgba(29, 28, 28, 0.116);
 }
+
 .header .logo{
-    color: black;
+    color: white;
     font-weight: bolder;
     font-size: 3rem;
+    margin-left: 20px;
 }
 .header .logo span{
-    color: hwb(236 2% 7%);
+    color: hwb(199 0% 0% / 0.841);
+}
+p{
+    font-size: 2em;
+    color: black;
+}
+.header .nav{
+    margin-right: 5%;
 }
 .header .navBar a{
-    display: inline-block;
-    padding: 1.5rem 2rem;
+    padding-left: 20px;
     font-size: 1.7rem;
-    color:hwb(236 2% 7%);
+    color: white;
 }
  .header .navBar a:hover{
-    background: hwb(236 2% 7%);
-    border-radius: 10rem;
-    color: white;
-    }
-    .rectangulo{
-        
-        padding: 1rem;
-        width: 50%;
-        height: 100rem;
-        padding: 20px;
-        background: black;
-        border-right: 150px solid transparent;
-      border-bottom: 250px solid hwb(236 2% 7%);
-
-        
-       
-     }
-     .rectangulo .imagem{
-        margin: 0px;
-        padding: 6rem;
-         width: 50%;
-        height: auto;
-    
-     }
-     .imagem{
-        width: 5px;
-        height: 4px;
-     }
+    font-size: 1.8rem;
+    color: black;
+    transform: scale(1.1);
+}
+.fundoImg{
+    background-image: url('imgs/30659167-minimalista-area-de-trabalho-fundo-alto-qualidade-gratis-foto.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fundoImg div{
+    background-color: rgba(0, 0, 0, 0.479);
+    height: 350px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.fundoImg > div > h3{
+    text-align: center;
+    font-size: 2.5em;
+}
+main{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
