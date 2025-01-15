@@ -1,0 +1,7 @@
+header  .navBar{
+    display: none;
+}
+menu{
+    display: block;
+    font-size: 20px;
+}

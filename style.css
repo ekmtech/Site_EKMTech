@@ -72,6 +72,9 @@ p{
     justify-content: center;
     align-items: center;
 }
+menu{
+    display: none;
+}
 .fundoImg div{
     background-color: rgba(0, 0, 0, 0.479);
     height: 350px;
@@ -86,4 +89,32 @@ main{
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#cardSec{
+    display: flex;
+    padding: 7px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.268);
+    min-width: 320px;
+    width: 25%;
+    margin: 15px;
+}
+.img{
+    height: 250px;
+    border-radius: 13px;
+    padding: 5px;
+}
+.cards>p{
+    padding: 2px;
+    text-align: justify;
 }
