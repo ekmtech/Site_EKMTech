@@ -1,0 +1,79 @@
+*{  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+body{
+    background: black;
+    color: white;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    overflow-x: hidden;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9%;
+    z-index: 1000px;
+    background:white;
+    color: white;
+    border: 1px solid;
+
+}
+.header .logo{
+    color: black;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.header .logo span{
+    color: hwb(236 2% 7%);
+}
+.header .navBar a{
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    font-size: 1.7rem;
+    color:hwb(236 2% 7%);
+}
+ .header .navBar a:hover{
+    background: hwb(236 2% 7%);
+    border-radius: 10rem;
+    color: white;
+    }
+    .rectangulo{
+        
+        padding: 1rem;
+        width: 50%;
+        height: 100rem;
+        padding: 20px;
+        background: black;
+        border-right: 150px solid transparent;
+      border-bottom: 250px solid hwb(236 2% 7%);
+
+        
+       
+     }
+     .rectangulo .imagem{
+        margin: 0px;
+        padding: 6rem;
+         width: 50%;
+        height: auto;
+    
+     }
+     .imagem{
+        width: 5px;
+        height: 4px;
+     }
