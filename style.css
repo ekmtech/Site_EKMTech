@@ -49,6 +49,18 @@ p{
 }
 .header .nav{
     margin-right: 5%;
+    
+}
+.header .nav a{
+    color: white;
+    font-size: 1.7rem;
+
+
+}
+.header.nav a:hover{
+    font-size: 1.8rem;
+    color: black;
+    transform: scale(1.1);
 }
 .header .navBar a{
     padding-left: 20px;
@@ -72,9 +84,7 @@ p{
     justify-content: center;
     align-items: center;
 }
-menu{
-    display: none;
-}
+
 .fundoImg div{
     background-color: rgba(0, 0, 0, 0.479);
     height: 350px;
@@ -113,6 +123,8 @@ main{
     height: 250px;
     border-radius: 13px;
     padding: 5px;
+    transform: scale(1.1);
+
 }
 .cards>p{
     padding: 2px;
