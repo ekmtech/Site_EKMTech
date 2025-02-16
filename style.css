@@ -1,132 +1,33 @@
-*{  
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    text-decoration: none;
-    outline: none;
-    border: none;
-    text-transform: capitalize;
-    transition: all .2s linear;
+.container {
+    position: relative;
 }
-body{
-    background-color: whitesmoke;
-    color: white;
-}
-html{
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
-    overflow-x: hidden;
-}
-
-.header{
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 9%;
-    color: white;
-    padding: 10px;
-    box-shadow: 1px 1px 1px 2px rgba(29, 28, 28, 0.116);
-}
-
-.header .logo{
-    color: white;
-    font-weight: bolder;
-    font-size: 3rem;
-    margin-left: 20px;
-}
-.header .logo span{
-    color: hwb(199 0% 0% / 0.841);
-}
-p{
-    font-size: 2em;
-    color: black;
-}
-.header .nav{
-    margin-right: 5%;
-    
-}
-.header .nav a{
-    color: white;
-    font-size: 1.7rem;
-
-
-}
-.header.nav a:hover{
-    font-size: 1.8rem;
-    color: black;
-    transform: scale(1.1);
-}
-.header .navBar a{
-    padding-left: 20px;
-    font-size: 1.7rem;
-    color: white;
-}
- .header .navBar a:hover{
-    font-size: 1.8rem;
-    color: black;
-    transform: scale(1.1);
-}
-.fundoImg{
-    background-image: url('imgs/30659167-minimalista-area-de-trabalho-fundo-alto-qualidade-gratis-foto.jpg');
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fundoImg div{
-    background-color: rgba(0, 0, 0, 0.479);
-    height: 350px;
-    padding: 10px;
-    border-radius: 15px;
-}
-.fundoImg > div > h3{
+h2{
     text-align: center;
-    font-size: 2.5em;
+    margin-top: 200px;
 }
-main{
-    height: 90vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#cardSec{
+.disc{
     display: flex;
-    padding: 7px;
-    flex-wrap: wrap;
-    justify-content: center;
 }
-.cards{
-    background-color: white;
+.services {
     display: flex;
-    flex-direction: column;
-    width: 200px;
-    padding: 8px;
-    border-radius: 20px;
-    box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.268);
-    min-width: 320px;
-    width: 25%;
-    margin: 15px;
-}
-.img{
-    height: 250px;
-    border-radius: 13px;
+   justify-content: center;
     padding: 5px;
-    transform: scale(1.1);
-
 }
-.cards>p{
-    padding: 2px;
-    text-align: justify;
+img{
+    height: 100%;
+    width: 100%;
+}
+.cards {
+    display: flex;
+    padding: 10px;
+    background-color: aqua;
+    height: 400px;
+    border-radius: 10px;
+    width: 90%;
+}
+.leftcard {
+    width: 45%;
+}
+.rightcard {
+    width: 55%;
 }

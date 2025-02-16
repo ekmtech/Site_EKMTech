@@ -1,90 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EKM tech</title>
+    <title>EKM Tech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css" media="(max-width : 768px)">
 </head>
 <body>
-    <!-- Inicio do header -->
-    <header class="header">
-        <a href="index1.html"><span class="logo"><span>EKM</span> Tech</span></a>
-        <div class="nav">
-            <a href="index.html">Menu</a>
-            <nav class="navBar ">
-                <a href="index1.html">Home</a>
-                <a href="index1.html">Serviços</a>
-                <a href="index1.html">Contactos</a>
-                <a href="index1.html">Sobre</a>
-            </nav>
-          </div>
-       </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex flex-row-reverse">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">EKM <span>Tech</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    <!-- Fim do Header -->
 
-    <!-- Inicio do main -->
-    <main>
-        <section class="fundoImg">
-            <div>
-                <h1>Bem vindo à EKM TECH Workstation</h1>
-                <p>Aqui você pode ver os Serviços que prestamos e fazer a sua solicitção
+     <main>
+        <!-- Secção do home -->
+        <section>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+   
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="bakgroumd.jpg" class="d-block w-100" 
+                    alt="...">
+                    <div class="carousel-caption d-none d-md-block ">
+                      <h5>Título do Slide 1</h5>
+                      <p>Texto adicional para o slide 1.</p>
+                  </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="index-background.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="rawpixel-com-lifeofpix-rawpixelcom1624-307996.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <!-- Secção de porque nos escolher  -->
+        <section class = "discriptionekm">
+          <h2>Porque nos escolher</h2>
+          <div class="disc">
+            <div class="cols">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur minima aspernatur omnis ex neque consequuntur animi in vitae repellat laudantium autem velit dolores, unde natus incidunt error dolorum ipsa soluta!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic animi id nostrum nisi dolorum obcaecati maxime doloribus, vel neque quaerat alias voluptatem ut officiis, accusamus aspernatur veritatis eveniet possimus!</p>
+            </div>
+            <div class="cols">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur minima aspernatur omnis ex neque consequuntur animi in vitae repellat laudantium autem velit dolores, unde natus incidunt error dolorum ipsa soluta!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic animi id nostrum nisi dolorum obcaecati maxime doloribus, vel neque quaerat alias voluptatem ut officiis, accusamus aspernatur veritatis eveniet possimus!</p>
+          </div>
+          <div class="cols">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur minima aspernatur omnis ex neque consequuntur animi in vitae repellat laudantium autem velit dolores, unde natus incidunt error dolorum ipsa soluta!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic animi id nostrum nisi dolorum obcaecati maxime doloribus, vel neque quaerat alias voluptatem ut officiis, accusamus aspernatur veritatis eveniet possimus!</p>
+        </div>
+          </div>
+        </section>
+        <!-- Nossos serviços -->
+        <section class="services">
+
+            <div class="cards">
+              <div class="leftcard">
+                  <img src="ddd.jpg" alt="">
+              </div>
+              <div class="rightcard">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex eveniet quisquam ut delectus earum veritatis impedit, nemo quis quasi magni velit dignissimos, natus totam quidem doloremque consequatur dolore fugiat!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste aliquid illum ad consectetur autem fugiat beatae, tenetur molestiae. Ab eius, possimus architecto porro aspernatur amet commodi doloremque repellendus qui eum.</p>
             </div>
         </section>
-        <section id="cardSec">
-            <article class="cards">
-                <img src="./imgs/download (3).jpg" alt="Serviço web" class="img">
-                <p><b>Tipo: </b>Desenvolvimento Web completo</p>
-                <p><b>Duração :</b> Depende do tamanho do projeto, mas geralmente 1 - 2 meses</p>
-                <p><b>Descrição :</b> Desenvolvimento de site empresárial de pequeno e médio porte, blogues pessoais</p>
-                <p><b>Preço :</b> 70.000,00kz, o preço também pode váriar</p>
-            </article>
-            <article class="cards">
-                <img src="./imgs/download.jpg" alt="Serviço web" class="img">
-                <p><b>Tipo: </b>Desenvolvimento Desktop</p>
-                <p><b>Duração :</b> Depende do tamanho do projeto, mas geralmente 1 - 3 meses</p>
-                <p><b>Descrição :</b> Desenvolvimento de aplicativos nativos do windows de pequeno e médio porte, sistemas empresáriais, gerenciamento de usuários e outros...</p>
-                <p><b>Preço :</b> 80.000,00kz, o preço também pode váriar</p>
-            </article>
-            <article class="cards">
-                <img src="./imgs/download (2).jpg" alt="Serviço web" class="img">
-                <p><b>Tipo: </b>Desenvolvimento Backend</p>
-                <p><b>Duração :</b> Depende do tamanho do projeto, mas geralmente 1 - 2 meses</p>
-                <p><b>Descrição :</b> Desenvolvimento de sistemas Backend Robustos com a plataforma <b>.net C#</b></p>
-                <p><b>Preço :</b> 50.000,00kz, o preço também pode váriar</p>
-            </article>
-            <article class="cards">
-                <img src="./imgs/download (4).jpg" alt="Serviço web" class="img">
-                <p><b>Tipo: </b>Desenvolvimento Frontend</p>
-                <p><b>Duração :</b> Depende do tamanho do projeto, mas geralmente 1 - 2 meses</p>
-                <p><b>Descrição :</b> Desenvolvimento de interfaces de aplicações web com html, css e JavaScript</b></p>
-                <p><b>Preço :</b> 50.000,00kz, o preço também pode váriar</p>
-            </article>
-            <article class="cards">
-                <img src="./imgs/download (1).jpg" alt="Serviço web" class="img">
-                <p><b>Tipo: </b>Desenvolvimento Frontend</p>
-                <p><b>Duração :</b> Depende do tamanho do projeto, mas geralmente 1 - 2 meses</p>
-                <p><b>Descrição :</b> Desenvolvimento de interfaces de aplicações web com html, css e JavaScript</b></p>
-                <p><b>Preço :</b> 50.000,00kz, o preço também pode váriar</p>
-            </article>
-            <article class="cards">
-                <img src="./imgs/download (1).jpg" alt="Serviço web" class="img">
-                <p><b>Tipo: </b>Desenvolvimento Frontend</p>
-                <p><b>Duração :</b> Depende do tamanho do projeto, mas geralmente 1 - 2 meses</p>
-                <p><b>Descrição :</b> Desenvolvimento de interfaces de aplicações web com html, css e JavaScript</b></p>
-                <p><b>Preço :</b> 50.000,00kz, o preço também pode váriar</p>
-            </article>
-            
-        </section>
-    </main>
-    <!-- Fim do main -->
-
-    <!-- Fim do Inicio do footer -->
-    <footer class="footer">
-
-    </footer>
-
-    <!-- Fim do footer -->
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque natus itaque, minus inventore vel nemo earum quia eligendi laboriosam sit debitis sapiente perferendis! Aperiam nostrum non consectetur consequatur amet modi.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, iure! Omnis corporis debitis ratione praesentium doloremque, neque illum suscipit obcaecati itaque ullam? Commodi maiores minus praesentium rerum fugit, saepe iure.
+     </main>
+     </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
