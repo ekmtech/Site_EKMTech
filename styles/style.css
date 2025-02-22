@@ -233,14 +233,14 @@ b{
     border-radius: 10px;
     padding: 20px;
 }
-@media screen and (max-width: 650px){
-    .card{
-        width: 90%;
-    }
-    
+@media screen and (max-width: 700px){
+  .card{
+      width: 95%;
+  }
 }
-@media screen and (max-width: 900px){
+@media screen and (min-width:701px) and (max-width: 900px){
   .card{
       width: 80%;
   }
+  
 }
