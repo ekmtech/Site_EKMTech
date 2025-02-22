@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EKMTech</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="CelularStyle.css" media="(max-width: 0px)">
-  </style>
+  <link rel="stylesheet" href="styles/style.part2.css">
 </head>
-<body>
+<body> 
   <!--Cabeçalho-->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -35,373 +34,187 @@
           </ul>
         </div>
       </div>
-    </header>
-
-    <div class="container-fluid p-0">
-      <!-- Carousel -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-    
-        <div class="carousel-inner">
-          <!-- Slide 1 -->
-          <div class="carousel-item active">
-            <img src="comprimentos.jpg" class="d-block w-100" alt="Imagem 1">
-          </div>
-          <!-- Slide 2 -->
-          <div class="carousel-item">
-            <img src="computer.jpg" class="d-block w-100" alt="Imagem 2">
-          </div>
-          <!-- Slide 3 -->
-          <div class="carousel-item">
-            <img src="computer.jpg" class="d-block w-100" alt="Imagem 3">
-          </div>
-        </div>
-    
-        <!-- Carousel Controls (Vertical and Circular) -->
-        <button class="carousel-control-prev position-absolute top-50 start-100 translate-middle-y p-3 rounded-circle bg-dark text-white border-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next position-absolute top-50 start-100 translate-middle-y p-3 rounded-circle bg-dark text-white border-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    
-  
-    <section class="sect1">
-      <h2 class="text-center mt-4">Por que nos escolher?</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 mt-3 d-flex justify-content-center">
-        <div class="col">
-      <div class="card h-100">
-        <div class="card-body">
-          <h5 class="card-title">Confiabilidade</h5>
-          <p class="card-text">A confiança que você deposita em nós é tratada com a máxima seriedade. Utilizamos as melhores práticas de segurança e processos transparentes para garantir que sua privacidade e os dados da sua empresa estejam sempre protegidos. Nossa equipe de especialistas está pronta para oferecer não apenas software, mas soluções que atendem aos seus objetivos de forma eficaz e sustentável.</p>
-          <a href="#" class="btn btn-primary">Saiba mais</a>
-        </div>
-      </div>
-        </div>
-        <div class="col">
-      <div class="card h-100">
-        <div class="card-body">
-          <h5 class="card-title">Qualidade</h5>
-          <p class="card-text">A nossa equipe de especialistas é dedicada a oferecer soluções robustas, escaláveis e seguras, testadas exaustivamente para garantir que o software funcione sem falhas, mesmo em ambientes de alta demanda. Além disso, a experiência do usuário é uma das nossas maiores prioridades. Buscamos sempre criar interfaces intuitivas e de fácil utilização, promovendo uma interação fluida e eficiente com as nossas soluções.</p>
-          <a href="#" class="btn btn-primary">Saiba mais</a>
-        </div>
-      </div>
-        </div>
-        <div class="col">
-      <div class="card h-100">
-        <div class="card-body">
-          <h5 class="card-title">Segurança</h5>
-          <p class="card-text">Na nossa empresa de software, a segurança é uma das nossas principais prioridades. Sabemos que, no mundo digital de hoje, a proteção de dados e a integridade dos sistemas são essenciais para o sucesso de qualquer organização. Por isso, cada um dos nossos produtos é desenvolvido com camadas de segurança robustas, utilizando as melhores práticas e tecnologias de ponta para garantir que as informações dos nossos clientes estejam sempre protegidas.</p>
-          <a href="#" class="btn btn-primary">Saiba mais</a>
-        </div>
-      </div>
-        </div>
-      </div>
-    </section>
-  <!--Serviços, Aqui não mexe-->
-  <section class="serviceConteiner">
-    <h2>Serviços prestados</h2>
-    <div class="container mt-5" style="width:75%;">
-      <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel" style="box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.174);">
-          <div class="carousel-inner">
-              <!-- Desenvolvimento Web -->
-              <div class="carousel-item active">
-                  <div class="card shadow-lg border-0 text-center p-4">
-                      <h3 class="text-primary fw-bold">Desenvolvimento Web🚀</h3>
-                      <p>Transforme sua ideia em uma solução digital poderosa! Criamos websites e aplicações web modernos, responsivos e otimizados para alto desempenho. Desenvolvemos com tecnologias atuais, garantindo segurança, escalabilidade e uma experiência incrível para o usuário.</p>
-                      <a href="#" class="btn btn-primary">Entre em contato 🚀</a>
-                  </div>
-              </div>
-              <!-- Desenvolvimento Desktop -->
-              <div class="carousel-item">
-                  <div class="card shadow-lg border-0 text-center p-4">
-                      <h3 class="text-primary fw-bold">Desenvolvimento Desktop 🖥️</h3>
-                      <p>Criamos aplicações desktop robustas e eficientes para Windows, garantindo alto desempenho e segurança. Nossos softwares são personalizados para atender suas necessidades, com interfaces intuitivas e processos otimizados.</p>
-                      < <a href="#" class="btn btn-primary">Entre em contato 🚀</a>
-                  </div>
-              </div>
-              <!-- Prototipagem -->
-              <div class="carousel-item">
-                  <div class="card shadow-lg border-0 text-center p-4">
-                      <h3 class="text-primary fw-bold">Prototipagem Criativa 🎨</h3>
-                      <p>Transformamos ideias em protótipos funcionais e interativos, garantindo um desenvolvimento mais ágil e eficiente. Criamos wireframes e designs interativos para validar conceitos antes da implementação, economizando tempo e recursos no processo.</p>
-                      < <a href="#" class="btn btn-primary">Entre em contato 🚀</a>
-                  </div>
-              </div>
-              <!-- Desenvolvimento Backend -->
-              <div class="carousel-item">
-                  <div class="card shadow-lg border-0 text-center p-4">
-                      <h3 class="text-primary fw-bold">Desenvolvimento Backend ⚙️</h3>
-                      <p>Construímos APIs e sistemas robustos, escaláveis e seguros, garantindo a estrutura ideal para seu projeto digital. Desenvolvemos arquiteturas eficientes que suportam alto tráfego e integração com diversos serviços, sempre priorizando a performance e a segurança.</p>
-                      < <a href="#" class="btn btn-primary">Entre em contato 🚀</a>
-                  </div>
-              </div>
-          </div>
-          <!-- Controles do Carrossel -->
-          <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Próximo</span>
-          </button>
+    </nav>
+  </header>
+  <section class="fundoimg">
+    <div class="overlay">
+      <div class="content">
+        <h1>Bem-vindo à EKMTech</h1>
+        <p>Transformando ideias em soluções tecnológicas inovadoras</p>
+        <a href="#contact" class="btn btn-primary">Entre em contato</a>
       </div>
     </div>
   </section>
-  <!--Preço-->
-  <section class="SectionPreco">
-    <h2 style="text-align: center;">Venha conhecer os nossos planos</h2>
-    <br>
-    <div class="conteiner">
-      <div class="preco">
-          <h2>Web🚀</h2>
-          <label class="checkbox-container">
-              <span>Portifólio 150.000z </span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>Blogs 250.000 kz</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>E-comerce 550.000 kz</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span> 750.000 kz</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <input type="submit" value="Comprar plano" id="btnComprar">
-      </div>
-      <div class="preco">
-          <h2>Mobile</h2>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <input type="submit" value="Comprar plano" id="btnComprar">
-      </div>
-      <div class="preco">
-          <h2>Desktop</h2>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <label class="checkbox-container">
-              <span>texto do plano aqui</span>
-              <input type="checkbox" checked>
-              <span class="checkmark"></span>
-          </label>
-          <input type="submit" value="Comprar plano" id="btnComprar">
-      </div>
+  
+  <!--Sobre porque nos escolher-->
+  <section class="conteiner1">
+    <div class="cardsconteiner">
+        <div class="cards1 card" style="display: flex; flex-direction: row;">
+            <div class="divimg">
+                <img src="imgs/icone.qualidade.png" alt="" style="height: 70px; width: 70px;">
+            </div>
+            <div class="content">
+                <h3>Qualidade</h3>
+                <p>Produtos de alta qualidade, escolhemos sempre as melhores tecnologias do mercado para os nossos produtos</p>
+            </div>
+        </div>
+        <div class="cards1 card" style="display: flex; flex-direction: row;">
+            <div class="divimg">
+                <img src="imgs/icon-segurança.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Segurança</h3>
+                <p>Priorizamos a segurança nos seus aplicativos com autenticação e autorizaçãode usuários e outros métodos</p>
+            </div>
+        </div>
+        <div class="cards1 card" style="display: flex; flex-direction: row;">
+            <div class="divimg">
+                <img src="imgs/icone-preço.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Preço</h3>
+                <p>Preços baixos e de confiança, dependendo da complexidade e personalização da sua aplicação os nossos se adaptam</p>
+            </div>
+        </div>
     </div>
 </section>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-cuM1-8/xro2pmLP5A8IF5u20bD2XdzxjoKDLyuhq1hMBbKv0XleV1C8w5Kv7+0co" crossorigin="anonymous"></script>
-  <!--Rodapé-->
-  
-  <section id="contact" class="container mt-5 py-5;">
-    <h2 class="text-center mb-5 text-blue">Contacte-nos</h2>
+<section class="sectapresentacao ">
+  <h2>Trasformamos as suas ideias em Apps</h2>
+  <p>Com a EKMTech, as suas ideias passam de simples ideas para sites ou aplicativos interativos, priorizamos a sua experiência como cliente e a dos usuários do seu aplicativo</p>
+</section>
+  <!--Serviços, Aqui não mexe-->
+  <section class="serviceConteiner">
     
-    <div class="row">
-      <!-- Formulário -->
-      <div class="col-md-6">
-        <div class="card shadow-lg rounded p-4" style="background-color: #ffffff;">
-          <h4 class="text-center mb-4 text-primary">Fale Conosco</h4>
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label text-dark">Nome</label>
-              <input type="text" class="form-control form-control-lg shadow-sm" id="name" placeholder="Seu nome" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label text-dark">E-mail</label>
-              <input type="email" class="form-control form-control-lg shadow-sm" id="email" placeholder="Seu e-mail" required>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label text-dark">Mensagem</label>
-              <textarea class="form-control form-control-lg shadow-sm" id="message" rows="5" placeholder="Sua mensagem" required></textarea>
-            </div>
-            <div class="text-center">
-              <button type="submit" class="btn btn-outline-primary btn-lg w-100">Enviar Mensagem</button>
-            </div>
-          </form>
-        </div>
-      </div>
-      
-      <!-- Informações de Contato -->
-      <div class="col-md-6">
-        <div class="card shadow-lg rounded p-4" style="background-color: #ffffff;">
-          <h4 class="text-center mb-4 text-primary">Informações de Contato</h4>
-          <ul class="list-unstyled">
-            <li class="d-flex align-items-center mb-3">
-              <i class="bi bi-geo-alt-fill text-primary me-3" style="font-size: 1.5rem;"></i>
-              <p class="text-dark">Rua Exemplo, 123, Bairro X, Cidade Y</p>
-            </li>
-            <li class="d-flex align-items-center mb-3">
-              <i class="bi bi-telephone-fill text-primary me-3" style="font-size: 1.5rem;"></i>
-              <p class="text-dark">(11) 1234-5678</p>
-            </li>
-            <li class="d-flex align-items-center mb-3">
-              <i class="bi bi-envelope-fill text-primary me-3" style="font-size: 1.5rem;"></i>
-              <p class="text-dark">contato@empresa.com</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
   </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-cuM1-8/xro2pmLP5A8IF5u20bD2XdzxjoKDLyuhq1hMBbKv0XleV1C8w5Kv7+0co" crossorigin="anonymous"></script>
+<!--Rodapé-->
   
-  <!-- Incluindo o link para as bibliotecas do Bootstrap e os ícones -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<section id="contact" style="background-color: red;">
+  <h2 class="text-center mb-5 text-blue">Contacte-nos</h2>
   
-  <style>
-  
-  </style>
-  <footer class="bg-dark text-white pt-5 pb-3">
-    <div class="container">
-      <div class="row">
-  
-        <!-- Footer Column 1: About Us -->
-        <div class="col-md-4 mb-4">
-          <h5 class="text-uppercase mb-3">Sobre Nós</h5>
-          <p>Somos uma empresa inovadora focada em oferecer soluções tecnológicas personalizadas. Com uma equipe especializada, buscamos transformar ideias em resultados reais para nossos clientes.</p>
-        </div>
-  
-        <!-- Footer Column 2: Quick Links -->
-        <div class="col-md-4 mb-4">
-          <h5 class="text-uppercase mb-3">Links Rápidos</h5>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white text-decoration-none d-block mb-2">Casa</a></li>
-            <li><a href="#" class="text-white text-decoration-none d-block mb-2">Sobre</a></li>
-            <li><a href="#" class="text-white text-decoration-none d-block mb-2">Serviços</a></li>
-            <li><a href="#" class="text-white text-decoration-none d-block mb-2">Blog</a></li>
-            <li><a href="#" class="text-white text-decoration-none d-block mb-2">Contato</a></li>
-          </ul>
-        </div>
-  
-        <!-- Footer Column 3: Newsletter Signup -->
-        <div class="col-md-4 mb-4">
-          <h5 class="text-uppercase mb-3">Assine Nossa Newsletter</h5>
-          <p>Receba as últimas atualizações e ofertas exclusivas diretamente no seu e-mail.</p>
-          <form action="#" method="post">
-            <div class="input-group">
-              <input type="email" class="form-control" placeholder="Seu e-mail" required>
-              <button class="btn btn-primary" type="submit">Assinar</button>
-            </div>
-          </form>
-        </div>
-  
-      </div>
-  
-      <!-- Footer Bottom: Social Media & Copyright -->
-      <div class="row mt-4">
-        <div class="col-12 text-center">
-          <ul class="list-unstyled d-flex justify-content-center mb-4">
-            <li class="me-3">
-              <a href="#" class="text-white fs-3">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="me-3">
-              <a href="#" class="text-white fs-3">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="me-3">
-              <a href="#" class="text-white fs-3">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li class="me-3">
-              <a href="#" class="text-white fs-3">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
-          <p class="mb-0">© 2025 Minha Empresa. Todos os direitos reservados.</p>
-        </div>
+  <div class="row">
+    <!-- Formulário -->
+    <div class="col-md-6">
+      <div class="card shadow-lg rounded p-4">
+        <h4 class="text-center mb-4 text-primary">Fale Conosco</h4>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label text-dark">Nome</label>
+            <input type="text" class="form-control form-control-lg shadow-sm" id="name" placeholder="Seu nome" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label text-dark">E-mail</label>
+            <input type="email" class="form-control form-control-lg shadow-sm" id="email" placeholder="Seu e-mail" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label text-dark">Mensagem</label>
+            <textarea class="form-control form-control-lg shadow-sm" id="message" rows="5" placeholder="Sua mensagem" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-outline-primary btn-lg w-100">Enviar Mensagem</button>
+          </div>
+        </form>
       </div>
     </div>
-  </footer>
+    
+    <!-- Informações de Contato -->
+    <div class="col-md-6">
+      <div class="card shadow-lg rounded p-4" style="background-color: #ffffff;">
+        <h4 class="text-center mb-4 text-primary">Informações de Contato</h4>
+        <ul class="list-unstyled">
+          <li class="d-flex align-items-center mb-3">
+            <i class="bi bi-geo-alt-fill text-primary me-3" style="font-size: 1.5rem;"></i>
+            <p class="text-dark">Angola, Luanda</p>
+          </li>
+          <li class="d-flex align-items-center mb-3">
+            <i class="bi bi-telephone-fill text-primary me-3" style="font-size: 1.5rem;"></i>
+            <p class="text-dark">(244) 936 008 838</p>
+          </li>
+          <li class="d-flex align-items-center mb-3">
+            <i class="bi bi-envelope-fill text-primary me-3" style="font-size: 1.5rem;"></i>
+            <p class="text-dark">ekmtech1@gmail.com</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
   
-  <!-- Bootstrap JS and FontAwesome Icons -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>      
+<!-- Incluindo o link para as bibliotecas do Bootstrap e os ícones -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+<footer class="bg-dark text-white pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+  
+      <!-- Footer Column 1: About Us -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-uppercase mb-3">Sobre Nós</h5>
+        <p>Somos uma empresa inovadora focada em oferecer soluções tecnológicas personalizadas. Com uma equipe especializada, buscamos transformar ideias em resultados reais para nossos clientes.</p>
+      </div>
+  
+      <!-- Footer Column 2: Quick Links -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-uppercase mb-3">Links Rápidos</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Home</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Sobre</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Serviços</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Blog</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Contato</a></li>
+        </ul>
+      </div>
+  
+      <!-- Footer Column 3: Newsletter Signup -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-uppercase mb-3">Assine Nossa Newsletter</h5>
+        <p>Receba as últimas atualizações e ofertas exclusivas diretamente no seu e-mail.</p>
+        <form action="#" method="post">
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Seu e-mail" required>
+            <button class="btn btn-primary" type="submit">Assinar</button>
+          </div>
+        </form>
+      </div>
+  
+    </div>
+  
+    <!-- Footer Bottom: Social Media & Copyright -->
+    <div class="row mt-4">
+      <div class="col-12 text-center">
+        <ul class="list-unstyled d-flex justify-content-center mb-4">
+          <li class="me-3">
+            <a href="#" class="text-white fs-3">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="me-3">
+            <a href="#" class="text-white fs-3">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="me-3">
+            <a href="#" class="text-white fs-3">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="me-3">
+            <a href="#" class="text-white fs-3">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="mb-0">© 2025 EKM Tech. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+<!-- Bootstrap JS and FontAwesome Icons -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>      
 </body>
 </html>
