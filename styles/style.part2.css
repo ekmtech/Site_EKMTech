@@ -15,3 +15,41 @@
         padding: 70px;
     }
 }
+.glow-hover {
+    position: relative;
+    transition: 0.3s;
+  }
+  .glow-hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background:#0d6efd;
+    transition: 0.3s;
+  }
+  .glow-hover:hover {
+    color:#0d6efd;
+  }
+  .glow-hover:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  .sectionPassos{
+    background-color: rgba(33, 37, 41);
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    color: white;
+  }
+  .sectionPassos li{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  @media screen and (min-width:1200px){
+    .sectionPassos li{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+  }

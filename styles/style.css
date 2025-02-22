@@ -1,6 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    transition: 0.5s ease-in-out;
 }
 body{
     background-color: #f8f9fa;
@@ -80,7 +81,7 @@ b{
 }
 
 .serviceConteiner{
-    background-color: #f8f9fa;
+    background-color: whitesmoke;
     padding: 20px;
     width: 100%;
     margin: auto;
